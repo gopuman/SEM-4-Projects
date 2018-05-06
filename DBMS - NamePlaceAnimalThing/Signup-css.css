@@ -1,0 +1,87 @@
+#navbar{
+	
+	position:absolute;
+	width:100%;
+	height:64px;
+	background-color:black;
+	
+}
+
+#linkref{
+	
+	font-family: 'Spectral SC', serif;
+	font-size: 35px;
+	text-decoration:none;
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:26px;
+}
+
+.image{
+	position:relative;
+	width: 100%;
+}
+
+#linkref:hover{
+	background-color:#01579B;
+	color:black;
+}
+body{
+  background-image: url("car1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  border: 0px;
+  top: 0;
+}
+
+.logo-img{
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+div.transbox{
+    float:left;
+    position: relative;
+    top:150px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px; 
+    margin: 30px;
+    background-color: rgba(0,0,0,0.7);
+    border: 1px solid white;
+    width: 400px;
+    font-size: 15px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    color:white;
+    
+}
+input[type=button],input[type=submit]{
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   text-decoration: underline;
+}
+
+input[type = submit]{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(19, 94, 65);
+}
+
+input[type = submit]:hover{
+    background-color:white;
+    color:rgb(19, 94, 65);
+}
+
+input[type = text],input[type = password],[type = email]{
+    float:right;
+}
+
+form{
+     padding-right: 20px;
+}
